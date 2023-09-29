@@ -16,12 +16,12 @@
     ],
     "routes": [
       {
-        "src": "/static/(.*)",
-        "dest": "/static/$1"
+        "src": "/",
+        "dest": "/"
       },
       {
-        "src": "/(.*)",
-        "dest": "Siphon/wsgi.py"
+        "src": "/test",
+        "dest": "/"
       }
     ]
   }
